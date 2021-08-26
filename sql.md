@@ -269,6 +269,7 @@ DELETE FROM employee
 WHERE email ILIKE '%.com'
 RETURNING *;
 ~~~~  
+## ÖDEV 9  
 * **city** tablosu ile **country** tablosunda bulunan şehir (**city**) ve ülke (**country**) isimlerini birlikte görebileceğimiz INNER JOIN sorgusunu yazınız.  
 ~~~~sql
 SELECT country, city.city FROM country
